@@ -13,6 +13,8 @@
  .myNav ul.nav {
    background: rgb(26, 19, 221);
    padding: 1rem 2rem;
+   position: fixed;
+   width: 100%;
  }
 
  .myNav li {
