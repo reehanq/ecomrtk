@@ -1,0 +1,29 @@
+ body {
+   display: block !important;
+ }
+
+ #root {
+   width: 100%;
+   /* margin: 0 auto;
+  padding: 2rem; */
+ }
+
+
+
+ .myNav ul.nav {
+   background: rgb(26, 19, 221);
+   padding: 1rem 2rem;
+ }
+
+ .myNav li {
+   display: flex;
+   padding: 10px;
+ }
+
+ .myNav li a {
+   color: #fff;
+   text-decoration: none;
+ }
+ .myNav li a:hover{
+  color: #fff !important;
+ }

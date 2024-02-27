@@ -1,0 +1,23 @@
+.media_wraper {
+    border: 1px solid #c1bcbc;
+    margin: 20px 50px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+    .media-body{
+      h4 {
+        margin-top: 7px;
+        font-size: 14px;
+      }
+    }
+}
+
+.total_warper {
+  margin: 20px 0px 20px;
+  background-color: transparent !important;
+  border:1px solid #c1bcbc;
+  border-radius: 5px;
+}
