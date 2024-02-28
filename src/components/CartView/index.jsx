@@ -25,6 +25,13 @@ const CartView = () => {
 
 
     
+       //use dispatch to removeToCard
+       const removeToCard = (e, elem) => {
+        e.preventDefault();
+        dispatch(removeProduct(elem));
+       
+    }
+
     const handleOrderPlace = (e) => {
         e.preventDefault();
         navigate("/Checkout")
@@ -45,7 +52,7 @@ const CartView = () => {
                                 {el.title}
                             </Media>
                             <PriceShow data={{ price: el.price, rating: el.rating.rate }} />
-                            <Button onClick={() => dispatch(removeProduct(el.id))}>remove</Button>
+                            <Button onClick={(e) => removeToCard(e , el._id)}>remove</Button>
                         </Media>
                     </Media>
                     )

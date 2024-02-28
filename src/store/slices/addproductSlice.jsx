@@ -13,7 +13,8 @@ const addProductSlice = createSlice({
             state.data.push(action.payload)
         },
         removeProduct(state, action) {
-            state.data = state.data.filter((el) => el.id != action.payload);
+            console.log(action.payload)
+            state.data = state.data.filter((el) => el._id != action.payload);
         }
     },
    
